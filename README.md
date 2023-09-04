@@ -1,9 +1,12 @@
 
 # Key words: Digital Twin, Discrete Manufacturing Platform, Job Shop Scheduling
+## Using simpy to simulate JSSP in digital twin
 
-As technology redefines the manufacturing industry, using digital manufacturing platforms (DMP) to maximize operational efficiency and accelerate Industry 4.0 has become essential. The introduction of AGV has further improved the efficiency of the intelligent logistics system. In practical production, scheduling is an essential part of optimizing the whole chain.
-For product processing production, job shop scheduling and flow shop scheduling are mainly used, and the system performance is evaluated through indicators such as blockage rate and machine occupancy rate; the concept of machine learning is introduced on the basis of scheduling, and the digital twin model is used to realize the prediction of the scheduling system and the allocation of resources. 
-In this essay, the objective is focused on the application of digital twin (DT) models in job shop scheduling problem (JSSP), hybrid machine learning (HML) strategies are implemented to optimize the whole system. Based on the Simpy simulation platform, the discrete event simulations are created. Then the machine failure prediction and DT models are established, and some evaluations are made to fulfill the functions.
+As technology redefines the manufacturing industry, using digital manufacturing platforms (DMP) to maximize operational efficiency and accelerate Industry 4.0 has become essential. The introduction of AGV has further improved the efficiency of the intelligent logistics system. In practical production, scheduling is an essential part of optimizing the whole chain.  
+
+For product processing production, job shop scheduling and flow shop scheduling are mainly used, and the system performance is evaluated through indicators such as blockage rate and machine occupancy rate; the concept of machine learning is introduced on the basis of scheduling, and the digital twin model is used to realize the prediction of the scheduling system and the allocation of resources.  
+
+In this essay, the objective is focused on the application of digital twin (DT) models in job shop scheduling problem (JSSP), hybrid machine learning (HML) strategies are implemented to optimize the whole system. Based on the Simpy simulation platform, the discrete event simulations are created. Then the machine failure prediction and DT models are established, and some evaluations are made to fulfill the functions.  
 
 ## The layout of the essay:
 ### `Chapter 2: Background`
@@ -22,3 +25,4 @@ This chapter indicates some technical extensions, and unfinished angles to be op
 ### `Chapter 7: Conclusions`
 This chapter concludes the overall structure of the essay, and explains what have been down in the two semesters.
 
+##### The essay is under the help of DaQing and Shi Xuan.
