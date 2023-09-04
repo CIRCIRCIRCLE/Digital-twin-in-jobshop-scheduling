@@ -1,0 +1,36 @@
+1.general idea---the probability of machine breakdowns
+• use ML techniques to predict the probability of machine breakdowns 
+
+• • through the real-time data captured from the sensors, and consider a
+Condition-Based Maintenance (CBM) process to optimize the JSS 
+by reducing unexpected machine failures during operation.
+
+2. dataset  --- UCI Machine Learning Repository
+• The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset 
+that reflects real predictive maintenance data encountered in industry.
+• • The data is collected from sensors including air temperature(k), process temperature (k), 
+rotational speed (rpm), torque (Nm), tool wear(min), and indicated the machine status (normal or
+failure) in 10,000 records.
+
+• • we search through some online open data sources providing real datasets
+such as GitHub, NASA, DataWorld, and Kaggle. Finally, we find this proper dataset
+related to maintenance logs of a machine working in a manufacturing system
+and consider it as a maintenance log of our processing machines. 
+
+3.data analyzing and visualization
+• different reasons for break-down
+• • If we assume that the data is captured every 30 minutes, it means that the 10,000 records of
+data are collected in 5,000 working hours of the stamping machine. Of the 10,000 records,
+the machine experienced 339 times of failures which is 3.39% of the total records.
+• • For the single cause of machine damage, HDF is the most influential, so we first divide the data according to HDF
+
+• pair plot: correlations between variables
+• • we use the pair plot diagram for data visualization to see correlations between
+variables by categorizing data into red points (when HDF=0) and blue points (when HDF=1)
+(see figure 27).
+
+3. prediction model--
+• Defining dataset and variables
+• Splitting the HDF dataset into a training set and test set
+• Training decision tree and random forest ML techniques on the HDF dataset
+• Test the results of the ML techniques on the test set

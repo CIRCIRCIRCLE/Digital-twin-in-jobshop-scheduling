@@ -1,0 +1,20 @@
+Previous work:
+1. build up the sequence model for jobshop scheduling
+2. evaluate and optimize the scheduling system(blocking rate--back-up machines)
+3. find the dataset(machine failure conditions) from UCI respository to build up the machine failure model using XGBoost method
+4. introduce the machine failure model into the scheduling system
+5. introduce digital twin machine learning -assisted simulation model to realize the optimization of the whole system
+
+digital twin machine learning -assisted simulation model:
+1. preprocessing
+2. load data and fit the polynomial formula --> create the physical model
+3. compare the experimental data with physical model --> virtual model
+4. design a hybrid digital twin to arrive at better predictions
+	-->build a recurrent neural network model that can compensate for the simulation errors
+5. compile the hybird digital twin:	
+    physics-based simulation model (still not being optimal)
+    data-driven machine learning model (compensating for the model errors)
+6. make a prediction and fitting. 
+
+
+
